@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulus Group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #002147; /* Dark Blue */
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+        nav {
+            background-color: #800000; /* Maroon */
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 60px 20px;
+            background-color: white;
+            margin: 20px 0;
+        }
+        section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #800000; /* Maroon */
+            font-size: 2em;
+            border-bottom: 2px solid #800000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .karikatur img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #002147; /* Dark Blue */
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .container .box {
+            flex: 1;
+            margin: 10px;
+            min-width: 280px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tulus Group</h1>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#bisnis">Bisnis</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#media">Ruang Media</a>
+        <a href="#galeri">Galeri Foto</a>
+        <a href="#kontak">Kontak</a>
+        <a href="#karir">Karir</a>
+    </nav>
+
+    <section id="tentang">
+        <div class="content">
+            <h2>Tentang Tulus Group</h2>
+            <p>Tulus Group adalah perusahaan yang bergerak di berbagai bidang, termasuk properti, konstruksi, dan teknologi. Kami berkomitmen untuk memberikan yang terbaik dalam setiap proyek yang kami kerjakan.</p>
+        </div>
+    </section>
+
+    <section id="bisnis">
+        <div class="content">
+            <h2>Bisnis Kami</h2>
+            <p>Kami beroperasi dalam beberapa sektor, seperti pengembangan properti, infrastruktur, dan solusi teknologi. Tulus Group berfokus pada inovasi dan keberlanjutan dalam setiap lini bisnisnya.</p>
+        </div>
+    </section>
+
+    <section id="portofolio">
+        <div class="content">
+            <h2>Portofolio</h2>
+            <div class="container">
+                <div class="box">
+                    <h3>Proyek Properti</h3>
+                    <p>Pengembangan properti mewah dan ramah lingkungan di seluruh Indonesia.</p>
+                </div>
+                <div class="box">
+                    <h3>Infrastruktur</h3>
+                    <p>Membangun infrastruktur yang kokoh dan inovatif untuk masa depan yang lebih baik.</p>
+                </div>
+                <div class="box">
+                    <h3>Teknologi</h3>
+                    <p>Solusi teknologi terkini untuk mendukung berbagai sektor industri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyek">
+        <div class="content">
+            <h2>Proyek</h2>
+            <p>Beberapa proyek terbaru kami termasuk pembangunan kawasan hunian mewah, pengembangan infrastruktur kota, dan penerapan teknologi pintar dalam pengelolaan properti.</p>
+        </div>
+    </section>
+
+    <section id="media">
+        <div class="content">
+            <h2>Ruang Media</h2>
+            <p>Dapatkan informasi terbaru tentang Tulus Group melalui berita, publikasi, dan liputan media yang tersedia di sini.</p>
+        </div>
+    </section>
+
+    <section id="galeri">
+        <div class="content">
+            <h2>Galeri Foto</h2>
+            <div class="karikatur">
+                <img src="https://via.placeholder.com/800x400" alt="Karikatur Kota Hijau">
+                <img src="https://via.placeholder.com/800x400" alt="Rumah Mewah Minimalis">
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="content">
+            <h2>Kontak Kami</h2>
+            <p>Hubungi kami melalui email di contact@tulusgroup.com atau telepon di (021) 123-4567. Kami siap membantu Anda dengan informasi lebih lanjut.</p>
+        </div>
+    </section>
+
+    <section id="karir">
+        <div class="content">
+            <h2>Karir</h2>
+            <p>Jadilah bagian dari Tulus Group dan bangun karir Anda bersama kami. Lihat kesempatan karir terbaru di sini.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tulus Group. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
